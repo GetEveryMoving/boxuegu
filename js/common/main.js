@@ -9,7 +9,8 @@ requirejs.config({
         bootstrap:'lib/bootstrap/js/bootstrap',
         //自己配置的路径
         userList:'js/user/list',
-        userProfile:'js/user/profile'
+        userProfile:'js/user/profile',
+        common:'js/common/common'
     },
 
     shim:{
@@ -18,7 +19,7 @@ requirejs.config({
         }
     }
 });
-require(['jquery','bootstrap']);
+require(['jquery','bootstrap','common']);
 
 (function(window){
     var pathname=window.location.pathname;
