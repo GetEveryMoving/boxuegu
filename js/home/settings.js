@@ -1,5 +1,5 @@
 /**
- * Created by ĞÜĞñÎÄ on 2017/2/25.
+ * Created by ĞÜĞñÎÄ on 2017/2/26.
  */
 define(['jquery','common',"nprogress"],function($,undefined,nprogress){
     nprogress.done();
