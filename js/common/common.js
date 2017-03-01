@@ -2,6 +2,12 @@
  * Created by 熊旭文 on 2017/2/26.
  */
 define(["jquery","jqueryCookie"],function($,undefined){
+   //ajax请求loading
+    $(document).ajaxStart(function(){
+        $(".overlay").show();
+    }).ajaxStop(function(){
+        $(".overlay").hide();
+    });
     // 左侧导航下拉列表
     $(".navs a").click(function(){
         //console.log(123);

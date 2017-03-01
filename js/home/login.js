@@ -2,7 +2,7 @@
  * Created by 熊旭文 on 2017/2/26.
  */
 define(['jquery','jqueryCookie',"nprogress"],function($,undefined,nprogress){
-    nprogress.done();
+
     /*
     * 展示用户的历史登录头像
     * 1，获取uerInfo这个cookie值
@@ -36,5 +36,5 @@ define(['jquery','jqueryCookie',"nprogress"],function($,undefined,nprogress){
         });
         return false;
     });
-
+    nprogress.done();
 });

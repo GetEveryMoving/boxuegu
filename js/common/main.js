@@ -9,6 +9,7 @@ requirejs.config({
         bootstrap:'lib/bootstrap/js/bootstrap',
         jqueryCookie:'lib/jquery-cookie/jquery.cookie',
         nprogress:'lib/nprogress/nprogress',
+        template:'lib/artTemplate-3.0.1/template',
         //自己配置的路径
         courseAdd:'js/course/add',
         courseAddStep1:'js/course/add_step1',
